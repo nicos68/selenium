@@ -17,6 +17,7 @@ async function setLayout(name) {
 
 const applyFlavor = () => {
   const flavor = selected().id.substr(5);
+  flavor = "flavor-2tk";
   const vim = true;
   svg.contentWindow.setConfig(flavor, vim);
 }
