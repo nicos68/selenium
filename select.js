@@ -17,7 +17,7 @@ async function setLayout(name) {
 
 const applyFlavor = () => {
   const flavor = selected().id.substr(5);
-  const vim = document.getElementById("option-vim").checked;
+  const vim = true;
   svg.contentWindow.setConfig(flavor, vim);
 }
 
