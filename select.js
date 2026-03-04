@@ -22,9 +22,8 @@ const applyFlavor = () => {
 }
 
 const applyConfig = () => {
-  const data = Object.fromEntries(new FormData(cfg));
-  setLayout(data.layout.toLowerCase());
-  svg.contentWindow.setGeometry(data.geometry);
+  setLayout("ergol");
+  svg.contentWindow.setGeometry("Ortho");
   applyFlavor();
 };
 
