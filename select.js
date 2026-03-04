@@ -1,4 +1,3 @@
-const cfg = document.forms[0];
 const obj = document.querySelectorAll("object");
 const svg = obj[0]; // main keyboard display
 
@@ -28,7 +27,6 @@ const applyConfig = () => {
 };
 
 svg.addEventListener("load", applyConfig);
-cfg.addEventListener("change", applyConfig);
 
 // layer views
 const init = (name, layer3, layer4) => {
