@@ -23,7 +23,7 @@ const applyFlavor = () => {
 
 const applyConfig = () => {
   setLayout("ergol");
-  svg.contentWindow.setGeometry("Ortho");
+  svg.contentWindow.setGeometry("ortho");
   applyFlavor();
 };
 
